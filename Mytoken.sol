@@ -5,6 +5,8 @@ interface token {
     function transfer (address pranuesi, uint shuma);
     
 }
+
+
 contract Mytoken {
     
     address public perfituesi;
@@ -37,7 +39,7 @@ contract Mytoken {
         
     }
     
-    //Funksioni anonim qe thirret sa here qe dikush dergon fonde ne kontrate
+    //Funksioni anonim qe thirret sa here qe dikush dergon fonde ne kontrate (noname)
     
     function () payable {
         require(!mbylljaShitjes);
@@ -58,7 +60,7 @@ contract Mytoken {
         mbylljaShitjes = true;
     }
     
-    //Terheqja e fondeve
+    //Terheqja e fondeve 
     
     function terhqjaFondeve() pasAfatit {
         if (!shumaSynuarArritur) {
